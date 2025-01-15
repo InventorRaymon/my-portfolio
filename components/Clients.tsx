@@ -4,6 +4,8 @@ import React from "react";
 
 import { companies, testimonials } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
+import Image from 'next/image';
+
 
 const Clients = () => {
   return (
@@ -34,7 +36,7 @@ const Clients = () => {
                   alt={company.name}
                   className="md:w-10 w-5"
                 /> */}
-                <img
+                <Image
                   src={company.nameImg}
                   alt={company.name}
                   width={company.id === 4 || company.id === 5 ? 100 : 150}
