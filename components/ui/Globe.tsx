@@ -177,9 +177,9 @@ export function Globe({ globeConfig, data }: WorldProps) {
       .arcAltitude((e) => {
         return (e as { arcAlt: number }).arcAlt * 1;
       })
-      .arcStroke((e) => {
+      .arcStroke((e) => { // eslint-disable-line @typescript-eslint/no-unused-vars
         return [0.32, 0.28, 0.3][Math.round(Math.random() * 2)];
-      }) // eslint-disable-line @typescript-eslint/no-unused-vars
+      }) 
       .arcDashLength(defaultProps.arcLength)
       .arcDashInitialGap((e) => (e as { order: number }).order * 1)
       .arcDashGap(15)
