@@ -210,13 +210,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/InventorRaymon"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/RaymonMamon"
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/john-raymon-macalib-og-39a12b206/"
   },
 ];
