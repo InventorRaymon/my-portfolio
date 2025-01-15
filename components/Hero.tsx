@@ -40,7 +40,7 @@ const Hero = () => {
          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
       </div>
-      <Image src="/profilePic.png" alt="profilePic" className="absolute h-[600px] z-10 left-[1300px]"/>
+      <Image height={300} width={300} src="/profilePic.png" alt="profilePic" className="absolute h-[600px] z-10 left-[1300px]"/>
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
