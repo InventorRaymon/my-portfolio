@@ -12,7 +12,7 @@ const Footer = () => {
         <Image
           height={300}
           width={300}
-          src="/footer-grid.svg"
+          src="https://raymongarcia.github.io/my-portfolio/footer-grid.svg"
           alt="grid"
           className="w-full h-full opacity-50 "
         />
