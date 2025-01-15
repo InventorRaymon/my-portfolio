@@ -37,21 +37,3 @@ next-env.d.ts
 
 # Sentry Config File
 .sentryclirc
-
-/components/Approach.tsx
-/components/Clients.tsx
-/components/Experience.tsx
-/components/Footer.tsx
-/components/Hero.tsx
-/components/RecentProjects.tsx
-/components/ui/BentoGrid.tsx
-/components/ui/CanvasRevealEffect.tsx
-/components/ui/FloatingNavbar.tsx
-/components/ui/Globe.tsx
-/components/ui/GradientBg.tsx
-/components/ui/GridGlobe.tsx
-/components/ui/HoverBorder.tsx
-/components/ui/InfiniteCards.tsx
-/components/ui/LayoutGrid.tsx
-/components/ui/MovingBorders.tsx
-/components/ui/TextGenerateEffect.tsx
