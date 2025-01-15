@@ -99,7 +99,13 @@ export const projects = [
     title: "Bureau of Customs E-ticketing",
     des: "A system that streamlines customs processes by digitizing ticket issuance and tracking for shipments and transactions. It enhances efficiency, transparency, and security while reducing paperwork and minimizing delays in customs operations.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/figma.svg", "/mongo.svg"],
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/figma.svg",
+      "/mongo.svg",
+    ],
     link: "/ui.apple.com",
   },
 ];
@@ -110,21 +116,21 @@ export const testimonials = [
       "You're one of the most reliable developers I've worked with. Your attention to detail and ability to craft user-friendly React applications make a huge difference in the projects we deliver. It's clear you take pride in creating clean, efficient code, and it inspires the rest of the team to aim higher.",
     name: "Karlo Calzada",
     title: "Advanced App Engineering Specialist",
-    pic: "karlo.jpg"
+    pic: "/karlo.jpg",
   },
   {
     quote:
       "Honestly, your work stands out. The way you approach complex frontend challenges and turn them into seamless, intuitive user interfaces is impressive. It’s always reassuring to know that when you’re on a project, the frontend is going to look and function perfectly.",
     name: "James Carl Junio",
     title: "Custom Software Engineering Specialist",
-    pic: "james.jpeg"
+    pic: "/james.jpeg",
   },
   {
     quote:
       "I’ve learned so much just by collaborating with you. You not only create amazing React-based solutions but also bring fresh ideas and creative energy to the team. Your commitment to delivering quality results on time really sets a great example for all of us.",
     name: "Lysa Dee Fabilla",
     title: "Custom Software Engineering Analyst",
-    pic: "lysa.jpg"
+    pic: "/lysa.jpg",
   },
   // {
   //   quote:
@@ -210,16 +216,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/InventorRaymon"
+    link: "https://github.com/InventorRaymon",
   },
   {
     id: 2,
     img: "/twit.svg",
-    link: "https://x.com/RaymonMamon"
+    link: "https://x.com/RaymonMamon",
   },
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/john-raymon-macalib-og-39a12b206/"
+    link: "https://www.linkedin.com/in/john-raymon-macalib-og-39a12b206/",
   },
 ];
